@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Easy Xtream Football — microsite
 
-## Getting Started
+Promotional landing page for the **Easy Xtream Football** Android TV / mobile app.
+Built with Next.js (App Router) + Tailwind CSS, with all copy stored as
+Markdown per language, ready to deploy on Vercel.
 
-First, run the development server:
+App repo: https://github.com/nezor11/easy-xtream-football
 
+## Tech
+- **Next.js 14** (App Router, static-generated `/es` and `/en`).
+- **Tailwind CSS** with the app's brand palette (`brand.*` in `tailwind.config.ts`).
+- **Markdown content** parsed with `gray-matter` — one file per language.
+
+## Editing the texts
+All copy lives in `content/<locale>/home.md` (YAML frontmatter + a short body).
+Edit those files — no code changes needed.
+
+## Adding a language
+1. Add the code to `locales` in `lib/i18n.ts` (and a label in `localeNames`).
+2. Copy `content/es/home.md` to `content/<new-locale>/home.md` and translate it.
+
+The app ships in 8 languages (es, en, ca, eu, gl, pt, fr, it); the site starts
+with **es** and **en** and is structured to grow to the rest.
+
+## TODO before launch
+- Set the real Ko-fi URL in `lib/links.ts` (`kofi`).
+- Add real app screenshots to `public/` and a screenshots section (optional).
+- Add the Google Play URL to `lib/links.ts` once the app is published.
+
+## Develop
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000  (-> /es)
+npm run build    # static production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy (Vercel)
+Push this repo to GitHub, then import it at vercel.com -> it auto-detects Next.js.
+Every push to `main` redeploys.
