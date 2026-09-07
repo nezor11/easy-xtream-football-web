@@ -1,4 +1,10 @@
-// External links used across the site. Update KOFI once the Ko-fi account exists.
+// Public URL of this site (Vercel). Used as metadataBase so OG images and
+// canonical links resolve to absolute URLs. Override with NEXT_PUBLIC_SITE_URL
+// if the domain changes.
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://easy-xtream-football-web.vercel.app";
+
+// External links used across the site.
 export const links = {
   github: "https://github.com/nezor11/easy-xtream-football",
   privacy:

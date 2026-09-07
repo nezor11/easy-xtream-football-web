@@ -23,7 +23,6 @@ The app ships in 8 languages (es, en, ca, eu, gl, pt, fr, it); the site starts
 with **es** and **en** and is structured to grow to the rest.
 
 ## TODO before launch
-- Set the real Ko-fi URL in `lib/links.ts` (`kofi`).
 - Add real app screenshots to `public/` and a screenshots section (optional).
 - Add the Google Play URL to `lib/links.ts` once the app is published.
 
@@ -35,5 +34,6 @@ npm run build    # static production build
 ```
 
 ## Deploy (Vercel)
-Push this repo to GitHub, then import it at vercel.com -> it auto-detects Next.js.
-Every push to `main` redeploys.
+Live at https://easy-xtream-football-web.vercel.app — every push to `main` redeploys.
+If the domain changes, set `NEXT_PUBLIC_SITE_URL` (used for canonical/OG URLs) or
+update `siteUrl` in `lib/links.ts`.
