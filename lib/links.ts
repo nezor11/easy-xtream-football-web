@@ -10,5 +10,5 @@ export const links = {
   privacy:
     "https://github.com/nezor11/easy-xtream-football/blob/main/docs/privacy-policy.md",
   kofi: "https://ko-fi.com/nezor",
-  // playStore: "",  // add once the app is published
+  playStore: "https://play.google.com/store/apps/details?id=com.footballxtream",
 };

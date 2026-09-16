@@ -24,7 +24,6 @@ with **es** and **en** and is structured to grow to the rest.
 
 ## TODO before launch
 - Add real app screenshots to `public/` and a screenshots section (optional).
-- Add the Google Play URL to `lib/links.ts` once the app is published.
 
 ## Develop
 ```bash

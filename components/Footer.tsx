@@ -13,6 +13,9 @@ export function Footer({ c, locale }: { c: HomeContent; locale: Locale }) {
           <span className="font-semibold">Easy Xtream Football</span>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
+          <a className="text-brand-light/80 hover:text-brand-green" href={links.playStore} target="_blank" rel="noopener noreferrer">
+            {c.footerPlay}
+          </a>
           <a className="text-brand-light/80 hover:text-brand-green" href={links.github} target="_blank" rel="noopener noreferrer">
             {c.footerSource}
           </a>
