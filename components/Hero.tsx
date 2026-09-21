@@ -19,10 +19,18 @@ export function Hero({ c }: { c: HomeContent }) {
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a
-            href={links.github}
+            href={links.playStore}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-brand-green px-6 py-3 text-sm font-semibold text-brand-darker transition hover:brightness-110"
+          >
+            {c.ctaPlay}
+          </a>
+          <a
+            href={links.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-brand-gray/40 px-6 py-3 text-sm font-semibold text-brand-light transition hover:border-brand-light"
           >
             {c.ctaGithub}
           </a>

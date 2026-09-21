@@ -14,6 +14,7 @@ export type HomeContent = {
   tagline: string;
   heroTitle: string;
   heroBody: string;
+  ctaPlay: string;
   ctaGithub: string;
   ctaPrivacy: string;
   /** "Not included" disclaimer (IPTV policy) */
@@ -29,6 +30,7 @@ export type HomeContent = {
   privacyTitle: string;
   privacyBody: string;
   /** Footer */
+  footerPlay: string;
   footerSupport: string;
   footerSource: string;
   footerPrivacy: string;
