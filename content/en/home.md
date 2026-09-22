@@ -29,7 +29,7 @@ howSteps:
   - "Create a profile with your Xtream account or M3U playlist."
   - "Mark your favorite channels and enjoy live sports."
 privacyTitle: "Private & open source"
-privacyBody: "The app collects no personal data and sends nothing to anyone. Everything you enter stays on your device, encrypted. The code is open and you can review it on GitHub. Available in 8 languages."
+privacyBody: "The app collects no personal data and sends nothing to anyone. Everything you enter stays on your device, encrypted. The code is open and you can review it on GitHub. Available in 12 languages."
 footerPlay: "Google Play"
 footerSupport: "Buy me a coffee"
 footerSource: "Source code"
