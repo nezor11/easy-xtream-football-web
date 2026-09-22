@@ -19,7 +19,7 @@ Edit those files — no code changes needed.
 1. Add the code to `locales` in `lib/i18n.ts` (and a label in `localeNames`).
 2. Copy `content/es/home.md` to `content/<new-locale>/home.md` and translate it.
 
-The app ships in 12 languages (es, en, ca, eu, gl, pt, fr, it, de, tr, pl, ar); the site starts
+The app ships in 18 languages (es, en, ca, eu, gl, pt, fr, it, de, tr, pl, ar, id, vi, ro, el, hr, sr); the site starts
 with **es** and **en** and is structured to grow to the rest.
 
 ## TODO before launch

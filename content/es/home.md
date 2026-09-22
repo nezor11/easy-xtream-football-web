@@ -29,7 +29,7 @@ howSteps:
   - "Crea un perfil con tu cuenta Xtream o tu lista M3U."
   - "Marca tus canales favoritos y disfruta del deporte en directo."
 privacyTitle: "Privada y de código abierto"
-privacyBody: "La app no recoge ni envía datos personales a nadie. Todo lo que introduces se queda en tu dispositivo, cifrado. El código es abierto y puedes revisarlo en GitHub. Disponible en 12 idiomas."
+privacyBody: "La app no recoge ni envía datos personales a nadie. Todo lo que introduces se queda en tu dispositivo, cifrado. El código es abierto y puedes revisarlo en GitHub. Disponible en 18 idiomas."
 footerPlay: "Google Play"
 footerSupport: "Invítame a un café"
 footerSource: "Código fuente"
