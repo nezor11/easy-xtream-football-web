@@ -1,4 +1,5 @@
 import { Emblem } from "./Emblem";
+import { CoffeeIcon } from "./CoffeeIcon";
 import { links } from "@/lib/links";
 import type { HomeContent } from "@/lib/content";
 
@@ -41,6 +42,15 @@ export function Hero({ c }: { c: HomeContent }) {
             className="rounded-full border border-brand-gray/40 px-6 py-3 text-sm font-semibold text-brand-light transition hover:border-brand-light"
           >
             {c.ctaPrivacy}
+          </a>
+          {/* Stays on the page: the QR inside the app lands here, so this jumps to the section that
+              explains the tip before sending anyone to Ko-fi. */}
+          <a
+            href="#cafe"
+            className="inline-flex items-center gap-2 rounded-full border border-brand-green/40 px-6 py-3 text-sm font-semibold text-brand-green transition hover:border-brand-green"
+          >
+            <CoffeeIcon className="h-4 w-4" />
+            {c.ctaSupport}
           </a>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { Emblem } from "./Emblem";
+import { CoffeeIcon } from "./CoffeeIcon";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 import { links } from "@/lib/links";
 import type { HomeContent } from "@/lib/content";
@@ -22,8 +23,9 @@ export function Footer({ c, locale }: { c: HomeContent; locale: Locale }) {
           <a className="text-brand-light/80 hover:text-brand-green" href={links.privacy} target="_blank" rel="noopener noreferrer">
             {c.footerPrivacy}
           </a>
-          <a className="text-brand-light/80 hover:text-brand-green" href={links.kofi} target="_blank" rel="noopener noreferrer">
-            ☕ {c.footerSupport}
+          <a className="inline-flex items-center gap-1.5 text-brand-light/80 hover:text-brand-green" href={links.kofi} target="_blank" rel="noopener noreferrer">
+            <CoffeeIcon className="h-4 w-4" />
+            {c.footerSupport}
           </a>
         </div>
         <LocaleSwitcher current={locale} />

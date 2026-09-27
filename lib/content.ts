@@ -17,6 +17,7 @@ export type HomeContent = {
   ctaPlay: string;
   ctaGithub: string;
   ctaPrivacy: string;
+  ctaSupport: string;
   /** "Not included" disclaimer (IPTV policy) */
   noticeTitle: string;
   noticeBody: string;
@@ -29,6 +30,11 @@ export type HomeContent = {
   /** Privacy / open source */
   privacyTitle: string;
   privacyBody: string;
+  /** "Buy me a coffee" section (the in-app QR lands here) */
+  supportTitle: string;
+  supportBody: string;
+  supportCta: string;
+  supportNote: string;
   /** Footer */
   footerPlay: string;
   footerSupport: string;

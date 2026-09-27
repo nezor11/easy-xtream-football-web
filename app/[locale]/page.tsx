@@ -3,6 +3,7 @@ import { isLocale, defaultLocale, type Locale } from "@/lib/i18n";
 import { Hero } from "@/components/Hero";
 import { Features } from "@/components/Features";
 import { HowItWorks } from "@/components/HowItWorks";
+import { Support } from "@/components/Support";
 import { Footer } from "@/components/Footer";
 
 export default function Page({ params }: { params: { locale: string } }) {
@@ -30,6 +31,8 @@ export default function Page({ params }: { params: { locale: string } }) {
           <p className="mt-6 text-xs leading-relaxed text-brand-gray">{c.body}</p>
         ) : null}
       </section>
+
+      <Support c={c} />
 
       <Footer c={c} locale={locale} />
     </main>
