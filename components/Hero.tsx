@@ -48,7 +48,7 @@ export function Hero({ c }: { c: HomeContent }) {
             href="#cafe"
             className="rounded-full border border-brand-green/40 px-6 py-3 text-sm font-semibold text-brand-green transition hover:border-brand-green"
           >
-            {c.ctaSupport}
+            ☕ {c.ctaSupport}
           </a>
         </div>
       </div>
