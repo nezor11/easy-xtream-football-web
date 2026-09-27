@@ -29,7 +29,17 @@ export function Footer({ c, locale }: { c: HomeContent; locale: Locale }) {
           </a>
         </div>
         <LocaleSwitcher current={locale} />
-        <p className="text-xs text-brand-gray">{c.footerRights}</p>
+        <p className="text-xs text-brand-gray">
+          {c.footerRights}{" · "}
+          <a
+            className="hover:text-brand-green"
+            href={locale === "es" ? links.authorEs : links.author}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {c.footerAuthor}
+          </a>
+        </p>
       </div>
     </footer>
   );

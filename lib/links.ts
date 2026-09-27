@@ -11,4 +11,7 @@ export const links = {
     "https://github.com/nezor11/easy-xtream-football/blob/main/docs/privacy-policy.md",
   kofi: "https://ko-fi.com/nezor",
   playStore: "https://play.google.com/store/apps/details?id=com.footballxtream",
+  // Author's personal site; the Spanish resume lives under /es/.
+  author: "https://martinez.place",
+  authorEs: "https://martinez.place/es/",
 };
