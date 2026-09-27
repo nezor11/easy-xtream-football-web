@@ -7,6 +7,7 @@ heroBody: "Un reproductor de IPTV sencillo y centrado en el deporte en directo, 
 ctaPlay: "Descargar en Google Play"
 ctaGithub: "Ver en GitHub"
 ctaPrivacy: "Política de privacidad"
+ctaSupport: "Invítame a un café"
 noticeTitle: "Tú pones la lista"
 noticeBody: "Easy Xtream Football no incluye ni proporciona ningún canal, lista ni contenido. Eres tú quien conecta tu propia cuenta de Xtream Codes o tu propia lista M3U/M3U8 de un proveedor que ya utilices. La app es únicamente el reproductor."
 featuresTitle: "Características"

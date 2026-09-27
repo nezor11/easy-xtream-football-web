@@ -45,7 +45,8 @@ export default function LocaleLayout({
 }) {
   if (!isLocale(params.locale)) notFound();
   return (
-    <html lang={params.locale}>
+    // scroll-smooth so the hero's "buy me a coffee" button glides down to #cafe.
+    <html lang={params.locale} className="scroll-smooth">
       <body>{children}</body>
     </html>
   );

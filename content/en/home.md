@@ -7,6 +7,7 @@ heroBody: "A simple, sport-focused IPTV player for Android TV, Fire TV and mobil
 ctaPlay: "Get it on Google Play"
 ctaGithub: "View on GitHub"
 ctaPrivacy: "Privacy policy"
+ctaSupport: "Buy me a coffee"
 noticeTitle: "You bring the playlist"
 noticeBody: "Easy Xtream Football does not include or provide any channels, playlists or content. You connect your own Xtream Codes account or your own M3U/M3U8 playlist from a provider you already use. The app is only the player."
 featuresTitle: "Features"

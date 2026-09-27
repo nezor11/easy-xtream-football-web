@@ -42,6 +42,14 @@ export function Hero({ c }: { c: HomeContent }) {
           >
             {c.ctaPrivacy}
           </a>
+          {/* Stays on the page: the QR inside the app lands here, so this jumps to the section that
+              explains the tip before sending anyone to Ko-fi. */}
+          <a
+            href="#cafe"
+            className="rounded-full border border-brand-green/40 px-6 py-3 text-sm font-semibold text-brand-green transition hover:border-brand-green"
+          >
+            {c.ctaSupport}
+          </a>
         </div>
       </div>
     </header>

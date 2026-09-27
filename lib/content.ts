@@ -17,6 +17,7 @@ export type HomeContent = {
   ctaPlay: string;
   ctaGithub: string;
   ctaPrivacy: string;
+  ctaSupport: string;
   /** "Not included" disclaimer (IPTV policy) */
   noticeTitle: string;
   noticeBody: string;
