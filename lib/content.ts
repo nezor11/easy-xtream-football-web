@@ -41,6 +41,7 @@ export type HomeContent = {
   footerSource: string;
   footerPrivacy: string;
   footerRights: string;
+  footerAuthor: string;
   /** Optional long-form markdown body */
   body: string;
 };

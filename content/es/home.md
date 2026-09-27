@@ -40,6 +40,7 @@ footerSupport: "Invítame a un café"
 footerSource: "Código fuente"
 footerPrivacy: "Privacidad"
 footerRights: "Software libre bajo licencia GPL-3.0."
+footerAuthor: "Hecho por Jorge Mtnez"
 ---
 
 Easy Xtream Football es una herramienta neutral: su funcionamiento y el contenido que
